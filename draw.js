@@ -1,5 +1,9 @@
 window.onload = function() {
 
+    const canvas1 = document.getElementById('myCanvas');
+    const ctx = canvas1.getContext('2d');
+    ctx.globalAlpha = 0;  // Теперь краски нет!
+
     document.ontouchmove = function(e){ e.preventDefault(); }
   
     var canvas  = document.getElementById('main');
