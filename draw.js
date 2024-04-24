@@ -33,8 +33,8 @@ function init() {
 
     canvas.focus();
 
-    canvas.width  = (window.innerWidth > 400) ? 400 : window.innerWidth;
-    canvas.height = (window.innerHeight > 400) ? 400 : window.innerHeight;
+    canvas.setAttribute('width', window.innerWidth);
+    canvas.setAttribute('height', window.innerHeight);
 
     // If the browser supports the canvas tag, get the 2d drawing context for this canvas
     if (canvas.getContext)
