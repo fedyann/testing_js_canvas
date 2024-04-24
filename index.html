@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="geom.css">
+    <link rel="stylesheet" href="source/styles/geom.css">
     <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
-    <script src="draw.js"></script>
+    <script src="source/script/draw.js"></script>
     <title>Геометрия</title>
 </head>
 
@@ -65,9 +65,9 @@
 
 
         <div id="overlay">
+            <button id="clear" class="clear">clear</button><br>
+            <canvas id="main"></canvas>
             <div class="content">
-                <button id="clear" class="clear">clear</button><br>
-                <canvas id="main" class="canvas-test" width="300" height="300"></canvas>
                 <h2 id="start">ВВЕДЕНИЕ</h2>
                 <h3 id="first">1. Предмет стереометрии</h3>
                 <p>Школьный курс геометрии состоит из
@@ -144,7 +144,7 @@
         </div>
     </div>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-        <script src="script.js"></script>
+        <script src="source/script/script.js"></script>
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </body>
 
