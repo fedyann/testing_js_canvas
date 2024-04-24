@@ -177,6 +177,8 @@ body.active {
 
 .content {
   padding: 60px 0px 0px 0px;
+  position: absolute;
+  z-index: -1;
 }
 
 
